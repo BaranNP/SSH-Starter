@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="18" x2="1140" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18201b"/>
+      <stop offset="1" stop-color="#101313"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="704" y1="60" x2="1090" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B5F275" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#B5F275" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="92" y1="140" x2="490" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B5F275"/>
+      <stop offset="1" stop-color="#D8FFA9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <circle cx="944" cy="162" r="275" fill="url(#glow)"/>
+  <path d="M1 290H1199" stroke="#2A302E"/>
+  <path d="M1 1H1199V339H1z" stroke="#354139" stroke-opacity=".7"/>
+  <rect x="72" y="76" width="62" height="62" rx="17" fill="#263322" stroke="#526A43"/>
+  <path d="m91 95 13 12-13 12m21 0h13" stroke="#B5F275" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="153" y="111" fill="#F0F2ED" font-family="Segoe UI,Arial,sans-serif" font-size="29" font-weight="700">SSH Starter</text>
+  <text x="74" y="202" fill="url(#accent)" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">Uzak sunucunu</text>
+  <text x="74" y="253" fill="#F0F2ED" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">tek panelden yönet.</text>
+  <text x="77" y="287" fill="#9AA59D" font-family="Segoe UI,Arial,sans-serif" font-size="16">SSH üzerinden başlat · durumunu izle · günlükleri gör</text>
+  <rect x="730" y="57" width="395" height="240" rx="14" fill="#111514" stroke="#374139"/>
+  <path d="M730 96h395" stroke="#303832"/>
+  <circle cx="755" cy="77" r="4" fill="#D67A69"/>
+  <circle cx="771" cy="77" r="4" fill="#D4AD5D"/>
+  <circle cx="787" cy="77" r="4" fill="#9BCB71"/>
+  <text x="916" y="81" fill="#88948B" font-family="Consolas,monospace" font-size="11" text-anchor="middle">ssh-starter · kontrol paneli</text>
+  <rect x="754" y="116" width="347" height="64" rx="8" fill="#171D19" stroke="#303832"/>
+  <circle cx="778" cy="141" r="5" fill="#B5F275"/>
+  <text x="795" y="145" fill="#B5F275" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="600">Program çalışıyor</text>
+  <text x="774" y="164" fill="#849087" font-family="Consolas,monospace" font-size="10">SSH bağlantısı hazır · PID 2481</text>
+  <rect x="754" y="197" width="347" height="77" rx="8" fill="#0C100E" stroke="#29312C"/>
+  <text x="773" y="222" fill="#B5F275" font-family="Consolas,monospace" font-size="12">›_ canlı günlükler</text>
+  <text x="773" y="246" fill="#A6B4A8" font-family="Consolas,monospace" font-size="11">server started on :3000</text>
+  <text x="773" y="263" fill="#849087" font-family="Consolas,monospace" font-size="11">waiting for connections...</text>
+</svg>
