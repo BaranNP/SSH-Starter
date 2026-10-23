@@ -29,6 +29,12 @@ SSH Starter, Windows masaüstünden uzak Linux veya Windows bilgisayardaki bir p
 
 Windows'ta OpenSSH Client kurulu olmalıdır. Kurulumu PowerShell'de `ssh -V` komutuyla kontrol edebilirsin. Linux hedefinde dosyanın çalıştırma izni olmalıdır.
 
+### SmartScreen uyarısı
+
+İlk indirmede Windows, uygulamayı henüz tanımadığı için **Windows kişisel bilgisayarınızı korudu** uyarısını gösterebilir. Bu ekran tek başına virüs bulunduğunu göstermez; bu EXE şu anda kod imzası taşımıyor ve yayıncı adı doğrulanamıyor. Dosyayı yalnızca bu GitHub deposundaki resmi sürümden indirdiysen ve kaynağına güveniyorsan çalıştır. Microsoft Defender ayrı bir virüs/tehdit algılama uyarısı verirse dosyayı çalıştırma.
+
+Bu uyarıyı azaltmanın düzgün yolu, her sürümü doğrulanmış bir Authenticode kod imza sertifikasıyla imzalamaktır. İmzalı yeni uygulamalarda da SmartScreen itibarı oluşana kadar ilk uyarılar görülebilir.
+
 ## Bağlantı ve kullanım
 
 SSH kullanıcı adı ve portu arayüzden girilebilir. İstersen bilgisayarındaki `%USERPROFILE%\.ssh\config` dosyasına bir sunucu takma adı ekleyip uygulamada bu adı kullanabilirsin:
